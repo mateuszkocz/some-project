@@ -69,9 +69,9 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "jest --config=./.jest/config.js --testPathIgnorePatterns=storyshots-images.test.ts",
-    "test:images": "jest ./src/storyshots-images.test.ts --config=./.jest/config.js",
-    "storybook": "start-storybook --port=6006 --static-dir=public",
-    "build-storybook": "build-storybook"
+    "test:images": "npm run build-storybook && jest ./src/storyshots-images.test.ts --config=./.jest/config.js",
+    "storybook:serve": "start-storybook --port=6006 --static-dir=public",
+    "storybook:build": "build-storybook --static-dir=public"
   },
   "repository": {
     "type": "git",

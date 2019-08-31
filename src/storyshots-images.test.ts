@@ -5,5 +5,11 @@
 
 import initStoryshots from "@storybook/addon-storyshots"
 import { imageSnapshot } from "@storybook/addon-storyshots-puppeteer"
+import { resolve } from "path"
 
-initStoryshots({ suite: "Image storyshots", test: imageSnapshot() })
+initStoryshots({
+  suite: "Image storyshots",
+  test: imageSnapshot({
+    storybookUrl: "file://" + resolve(__dirname, "..", "storybook-static"),
+  }),
+})

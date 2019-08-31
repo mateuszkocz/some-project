@@ -70,3 +70,6 @@ yarn-error.log
 
 # Storyshots diffs
 /src/__image_snapshots__/__diff_output__/
+
+# Storybook artifacts.
+/storybook-static/
