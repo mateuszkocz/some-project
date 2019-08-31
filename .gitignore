@@ -67,3 +67,6 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+# Storyshots diffs
+/src/__image_snapshots__/__diff_output__/
