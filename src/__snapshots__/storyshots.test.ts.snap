@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Layout|Dashboard/Header default 1`] = `
+<header
+  style={
+    Object {
+      "background": "rebeccapurple",
+      "marginBottom": "1.45rem",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "margin": "0 auto",
+        "maxWidth": 960,
+        "padding": "1.45rem 1.0875rem",
+      }
+    }
+  >
+    <h1
+      style={
+        Object {
+          "margin": 0,
+        }
+      }
+    >
+      <a
+        href="/"
+        style={
+          Object {
+            "color": "white",
+            "textDecoration": "none",
+          }
+        }
+      >
+        Money Manager
+      </a>
+    </h1>
+  </div>
+</header>
+`;
+
+exports[`Storyshots Layout|Dashboard/Header new 1`] = `
+<header
+  style={
+    Object {
+      "background": "rebeccapurple",
+      "marginBottom": "1.45rem",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "margin": "0 auto",
+        "maxWidth": 960,
+        "padding": "1.45rem 1.0875rem",
+      }
+    }
+  >
+    <h1
+      style={
+        Object {
+          "margin": 0,
+        }
+      }
+    >
+      <a
+        href="/"
+        style={
+          Object {
+            "color": "white",
+            "textDecoration": "none",
+          }
+        }
+      >
+        Money Manager New
+      </a>
+    </h1>
+  </div>
+</header>
+`;
