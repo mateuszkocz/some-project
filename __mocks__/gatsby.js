@@ -1,3 +1,7 @@
+/**
+ * Configuration based on: https://www.gatsbyjs.org/docs/unit-testing/
+ */
+
 const React = require("react")
 const gatsby = jest.requireActual("gatsby")
 module.exports = {
